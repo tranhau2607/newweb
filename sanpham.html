@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--butrap-->
+
+    <!-- ICON-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+
+        <a href="trangchu.html" class="logo">
+            <img src="image/logo.png" alt="">
+        </a>
+        <i class="fa fa-bars" id="menu-icon"></i>
+        <ul class="navbar">
+            <li><a href="trangchu.html">trang chủ</a></li>
+            <li><a href="sanpham.html">Sản phẩm</a></li>
+            <li><a href="chitiet.html">Chi tiết</a></li>
+            <li><a href="login.html">đăng nhập</a></li>
+            <li><a href="profile.html">cá nhân</a></li>
+        </ul>
+        <div class="head-icon">
+            <a href="giohang.html"><i class="fa fa-cart-shopping" ></i></a>
+            <i class="fa fa-magnifying-glass" id="seach-icon"></i>
+        </div>
+        <!--Search-->
+        <div class="search">
+            <input type="search" name="" id="" placeholder="Tìm kiếm.....">
+        </div>
+    </header>
+    <div class="thansp">
+    </div>
+    <div class="container">
+        <div class="heading" style="float: left">
+            <h2><span style="color: #76727291;">trang chủ ></span> tất cả sản phẩm</h2>
+        </div>
+
+        <div class="search-sp">
+
+            <select name="" id="">
+                <option value="">Mặc định</option>
+                <option value="">Phổ biến</option>
+                <option value="">Mua nhiều nhất</option>
+                <option value="">Theo giá: Thấp đến cao</option>
+                <option value="">Theo giá: Cao đến thấp</option>
+            </select>
+        </div>
+    </div>
+
+    <section class="product-small" id="product-small">
+        <i class="fa fa-bars" id="menu-sp"></i>
+        <div class="search_tt">
+            <div id="search-bar">
+                <form id="search_form">
+                    <input type="text" placeholder="Tìm kiếm..." required="">
+                    <button><a href=""><i class="fa fa-search"></i></a></button>
+                </form>
+            </div>
+            <h1>Danh mục sản phẩm</h1>
+            <div class="menu">
+                <ul>
+                    <li><a href="chitiet.html">Coffee gói</a></li>
+                    <li><a href="chitiet.html">Dụng cụ</a></li>
+                    <li><a href="chitiet.html">Sản phẩm Việt Nam</a></li>
+                    <li><a href="chitiet.html">Sản phẩm quốc tế</a></li>
+                </ul>
+            </div>
+            <h1>Lọc sản phẩm</h1>
+            <div>
+                <div class="loc check">
+                    <h3>Lọc theo giá</h3>
+                    <div class="loc-tien">
+                        <div class="loc-tien-contenr">
+                            <h4>Từ</h4>
+                            <select name="" id="">
+                                <option value="">$10</option>
+                                <option value="">$30</option>
+                                <option value="">$50</option>
+                                <option value="">$70</option>
+                            </select>
+                        </div>
+                        <div class="loc-tien-contenr">
+                            <h4>Đến</h4>
+                            <select name="" id="">
+                                <option value="">$50</option>
+                                <option value="">$100</option>
+                                <option value="">$200</option>
+                                <option value="">$300</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <div class="check">
+                    <h3>Lọc theo sản phẩm</h3>
+                    <div class="check-text">
+                        <input type="checkbox">
+                        <p>Coffee</p>
+                    </div>
+                    <div class="check-text">
+                        <input type="checkbox">
+                        <p>Dụng cụ</p>
+                    </div>
+                    <div class="check-text">
+                        <input type="checkbox">
+                        <p>Máy pha</p>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <h1>Ưu đãi</h1>
+            <div class="uudai">
+                <div class="flasssale">
+                    <div class="sale">
+                        <h4>FLASS SALE</h4>
+                        <p><a href="sanpham.html">Xem thêm</a> </p>
+                    </div>
+                    
+                    <div id="countdown" class="countdown">
+                        <div class="time">
+                         <h2 id="days">30</h2>
+                         <small>Ngày</small>
+                        </div>
+                      
+                        <div class="time">
+                         <h2 id="hours">21</h2>
+                         <small>Giờ</small>
+                        </div>
+                      
+                        <div class="time">
+                         <h2 id="minutes">53</h2>
+                         <small>Phút</small>
+                        </div>
+                      
+                        <div class="time">
+                         <h2 id="seconds">50</h2>
+                         <small>Giây</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="sale-sp">
+                    <div class="uudai-container">
+                        <a href="chitiet.html">
+                            <img src="image/binhlac.png" alt="">
+                            <p>Giảm giá 10%<br>Giá rẻ quá bất ngờ</p>
+    
+                        </a>
+                    </div>
+                    <div class="uudai-container">
+                        <a href="chitiet.html">
+                            <img src="image/binxit.png" alt="">
+                            <p>Giảm giá 20%<br>Mua ngay đừng chờ</p>
+                        </a>
+                    </div>
+                    <div class="uudai-container">
+                        <a href="chitiet.html">
+                            <img src="image/maypha.png" alt="">
+                            <p>Giảm giá 40%<br>Thanh toán tiện lợi</p>
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="product-container-small">
+            <div class="box">
+                <a href="chitiet.html"><img src="image/p1.png" alt=""></a>
+                <h3>Coffee ARABICA</h3>
+                <div class="content">
+                    <span>$5,12</span>
+                    <a href="chitiet.html">Mua Ngay</a>
+                </div>
+            </div>
+            <div class="box">
+                <a href="chitiet.html"><img src="image/p2.png" alt=""></a>
+
+                <h3>Coffee BOTERO</h3>
+                <div class="content">
+                    <span>$20</span>
+                    <a href="chitiet.html">Mua Ngay</a>
+                </div>
+            </div>
+            <div class="box">
+                <a href="chitiet.html"><img src="image/p3.png" alt=""></a>
+
+                <h3>Coffee Spec’ Phin</h3>
+                <div class="content">
+                    <span>$25</span>
+                    <a href="chitiet.html">Mua Ngay</a>
+                </div>
+            </div>
+            <div class="box">
+                <a href="chitiet.html"><img src="image/p4.png" alt=""></a>
+
+                <h3>Coffee Spec’ Phin nhỏ</h3>
+                <div class="content">
+                    <span>$10</span>
+                    <a href="chitiet.html">Mua Ngay</a>
+                </div>
+            </div>
+            <div class="box">
+                <a href="chitiet.html"><img src="image/p5.png" alt=""></a>
+
+                <h3>Coffee Kraft </h3>
+                <div class="content">
+                    <span>$15</span>
+                    <a href="chitiet.html">Mua Ngay</a>
+                </div>
+            </div>
+            <div class="box">
+                <a href="chitiet.html"><img src="image/p6.png" alt=""></a>
+
+                <h3>Coffee Presto </h3>
+                <div class="content">
+                    <span>$5</span>
+                    <a href="chitiet.html">Mua Ngay</a>
+                </div>
+            </div>
+            <div class="box">
+                <a href="chitiet.html"><img src="image/ad.png" alt=""></a>
+
+                <h3>Bình Pha Syphon JaPan</h3>
+                <div class="content">
+                    <span>$30</span>
+                    <a href="chitiet.html">Mua Ngay</a>
+                </div>
+            </div>
+            <div class="box">
+                <a href="chitiet.html"><img src="image/am.png" alt=""></a>
+
+                <h3>Ấm Cổ Ngỗng Cán Gỗ </h3>
+                <div class="content">
+                    <span>$13,64</span>
+                    <a href="chitiet.html">Mua Ngay</a>
+                </div>
+            </div>
+            <div class="box">
+                <a href="chitiet.html"><img src="image/amdien.png" alt=""></a>
+
+                <h3>Ấm Điện Brewista Artisan</h3>
+                <div class="content">
+                    <span>$123,63</span>
+                    <a href="chitiet.html">Mua Ngay</a>
+                </div>
+            </div>
+            <div class="box">
+                <a href="chitiet.html"><img src="image/binhlac.png" alt=""></a>
+                <h3>Bình Lắc - Shaker Inox</h3>
+                <div class="content">
+                    <span>$3,62</span>
+                    <a href="chitiet.html">Mua Ngay</a>
+                </div>
+            </div>
+            <div class="box">
+                <a href="chitiet.html"><img src="image/binxit.png" alt=""></a>
+
+                <h3>Bình Xịt Kem Tươi</h3>
+                <div class="content">
+                    <span>$27,71</span>
+                    <a href="chitiet.html">Mua Ngay</a>
+                </div>
+            </div>
+            <div class="box">
+                <a href="chitiet.html"><img src="image/maypha.png" alt=""></a>
+
+                <h3>Máy pha Delonghi EC230.BK</h3>
+                <div class="content">
+                    <span>$264,31</span>
+                    <a href="chitiet.html">Mua Ngay</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <div class="page-btn">
+        <span>&#60;</span>
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>&#62;</span>
+    </div>
+    <section class="danhgia">
+        <div class="heading">
+            <h2>đánh giá</h2>
+        </div>
+        <div class="danhgia-container">
+            <div class="box">
+                <div class="star">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <p>Hài lòng</p>
+                <h2>Hải</h2>
+                <img src="image/rev1.jpg" alt="">
+            </div>
+            <div class="box">
+                <div class="star">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p>Trên cả tuyệt vời</p>
+                <h2>Hiếu</h2>
+                <img src="image/rev2.jpg" alt="">
+            </div>
+            <div class="box">
+                <div class="star">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <p>Hài lòng</p>
+                <h2>Hoa</h2>
+                <img src="image/rev3.jpg" alt="">
+            </div>
+
+        </div>
+
+    </section>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h2>Tải App</h2>
+                    <p>Tải xuống App cho điện thoại Android và IOS.</p>
+                    <div class="app-logo">
+                        <img src="image/app-2store.png">
+                        <img src="image/google-play-png-logo.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="image/logo.png">
+                    <p>Tải xuống App cho điện thoại Android và IOS.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h2>Tải App ngay</h2>
+                    <ul>
+                        <li>Phiếu giảm giá</li>
+                        <li>Bài viết trên blog</li>
+                        <li> Chính sách đổi trả</li>
+                        <li>Tham gia liên kết</li>
+                        <li>Thẻ thành viên</li>
+                        <li>Hoạt động giải trí</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h2>Thông tin chi tiết</h2>
+                    <ul>
+                        <li><i class="fa-solid fa-location-dot"></i> 456 Tân Sơn Nhì, phường Tân Sơn Nhì, quận Tân Phú,
+                            TP.HCM</li>
+                        <li><i class="fa-solid fa-phone"></i> +84999999</li>
+                        <li><i class="fa-solid fa-envelope"></i> powgcoffee@gmail.com</li>
+
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2023 - Easy Tutorials</p>
+        </div>
+    </div>
+    <script>
+        const days = document.getElementById('days');
+        const hours = document.getElementById('hours');
+        const minutes = document.getElementById('minutes');
+        const seconds = document.getElementById('seconds');
+
+        const currentYear = new Date().getFullYear();
+        const newYearTime = new Date(`June 01 2023 ${currentYear + 1} 00:00:00`)
+        // Update countdown time
+        function updateCountdown() {
+            const currentTime = new Date();
+            const diff = newYearTime - currentTime;
+
+            const d = Math.floor(diff / 1000 / 60 / 60 / 24);
+            const h = Math.floor(diff / 1000 / 60 / 60) % 24;
+            const m = Math.floor(diff / 1000 / 60) % 60;
+            const s = Math.floor(diff / 1000) % 60;
+
+            days.innerHTML = d;
+            hours.innerHTML = h < 10 ? '0' + h : h;
+            minutes.innerHTML = m < 10 ? '0' + m : m;
+            seconds.innerHTML = s < 10 ? '0' + s : s;
+        }
+
+        setInterval(updateCountdown, 1000);
+    </script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
